@@ -17,6 +17,7 @@
     "@feathersjs/socketio-client": "^4.5.11",
     "@feathersjs/vuex": "4.0.1-pre.11",
     "@headlessui/vue": "^1.0.0",
+    "@tailwindcss/forms": "^0.3.2",
     "@vueuse/core": "^4.3.4",
     "@vueuse/head": "^0.5.1",
     "events": "^3.3.0",
@@ -27,11 +28,13 @@
     "vuex": "^4.0.0"
   },
   "devDependencies": {
+    "@tailwindcss/jit": "^0.1.18",
     "@vitejs/plugin-vue": "^1.2.1",
     "@vue/compiler-sfc": "^3.0.11",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
     "tailwindcss": "^2.1.1",
-    "vite": "^2.1.5"
+    "vite": "^2.1.5",
+    "vite-plugin-components": "^0.8.4"
   }
 }
