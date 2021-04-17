@@ -1,0 +1,37 @@
+{
+  "name": "vue-vite-tw",
+  "version": "0.0.0",
+  "description": "Vue, Vite and Tailwind/headless ui",
+  "main": "index.js",
+  "repository": "https://github.com/philipimperato/vue3-vite-tailwind.git",
+  "author": "Philip Imperato",
+  "license": "GNU",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^4.5.11",
+    "@feathersjs/feathers": "^4.5.11",
+    "@feathersjs/socketio-client": "^4.5.11",
+    "@feathersjs/vuex": "4.0.1-pre.11",
+    "@headlessui/vue": "^1.0.0",
+    "@vueuse/core": "^4.3.4",
+    "@vueuse/head": "^0.5.1",
+    "events": "^3.3.0",
+    "feathers-hooks-common": "^5.0.5",
+    "socket.io-client": "^4.0.1",
+    "vue": "3.0.11",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.11",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  }
+}
