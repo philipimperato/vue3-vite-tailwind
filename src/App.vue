@@ -1,5 +1,5 @@
-<template>
-  <Login />
+<template lang="pug">
+h1.text-green-600.text-8xl Hi!
 </template>
 
 <script setup>
